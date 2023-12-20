@@ -24,7 +24,7 @@ namespace api_s3_aws.Service
         {
             // Configure as credenciais da AWS.
             AwsKeyId = "***************";//aqui vc colocara a sua key
-            AwsKeySecret = "**********************************************";//aqui vc colocara a sua key
+            AwsKeySecret = "**********************************************";//aqui vc colocara a sua secret key
             AwsCredentials = new BasicAWSCredentials(AwsKeyId, AwsKeySecret);
 
             // Crie um objeto BasicAWSCredentials com as credenciais.
