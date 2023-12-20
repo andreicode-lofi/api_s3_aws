@@ -23,8 +23,8 @@ namespace api_s3_aws.Service
         public AmazomS3Service()
         {
             // Configure as credenciais da AWS.
-            AwsKeyId = "AKIAVTHG2FXMHSDGELJU";
-            AwsKeySecret = "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";
+            AwsKeyId = "***************";//aqui vc colocara a sua key
+            AwsKeySecret = "**********************************************";//aqui vc colocara a sua key
             AwsCredentials = new BasicAWSCredentials(AwsKeyId, AwsKeySecret);
 
             // Crie um objeto BasicAWSCredentials com as credenciais.
